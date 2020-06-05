@@ -21,7 +21,7 @@ def main():
 
 # Gs = Long-term average of the generator. Yields higher-quality results than the instantaneous snapshot.
   global Gs
-  model_path = "../trained_model/Gs_1024"
+  model_path = "Gs_1024"
   with open(model_path,"rb") as f:
     Gs = pickle.load(f)
 
